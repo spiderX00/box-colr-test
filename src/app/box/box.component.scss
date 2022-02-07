@@ -1,0 +1,26 @@
+/** box **/
+$box-width: 400px;
+$box-height: 200px;
+$box-border: 2px solid black;
+$box-border-radius: 26px;
+$box-cursor: pointer;
+/** ball **/
+$ball-width: 50px;
+$ball-height: 50px;
+$ball-border-radius: 50%;
+$ball-margin: 0;
+
+.box {
+    width: $box-width;
+    height: $box-height;
+    border: $box-border;
+    border-radius: $box-border-radius;
+    cursor: $box-cursor;
+
+    .ball {
+        width: $ball-width;
+        height: $ball-height;
+        border-radius: $ball-border-radius;
+        margin: $ball-margin;
+    }
+}

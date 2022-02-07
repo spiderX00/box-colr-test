@@ -1,0 +1,12 @@
+/** container **/
+$container-height: 100%;
+$container-display: flex;
+$container-justify-content: center;
+$container-align-items: center;
+
+.container {
+    display: $container-display;
+    justify-content: $container-justify-content;
+    align-items: $container-align-items;
+    height: $container-height;
+}
